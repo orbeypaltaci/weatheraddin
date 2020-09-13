@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Forecast_Button.Label" xml:space="preserve">
+    <value>Forecast Weather Data</value>
+  </data>
+  <data name="&gt;&gt;Forecast_Button.Name" xml:space="preserve">
+    <value>Forecast_Button</value>
+  </data>
+  <data name="&gt;&gt;Forecast_Button.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Forecast_Button.Parent" xml:space="preserve">
+    <value>weather_data</value>
+  </data>
+  <data name="&gt;&gt;Forecast_Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Weather_Button.Label" xml:space="preserve">
+    <value>Daily Weather Data</value>
+  </data>
+  <data name="&gt;&gt;Weather_Button.Name" xml:space="preserve">
+    <value>Weather_Button</value>
+  </data>
+  <data name="&gt;&gt;Weather_Button.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Weather_Button.Parent" xml:space="preserve">
+    <value>weather_data</value>
+  </data>
+  <data name="&gt;&gt;Weather_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="weather_data.Label" xml:space="preserve">
+    <value>Weather Data</value>
+  </data>
+  <data name="&gt;&gt;weather_data.Name" xml:space="preserve">
+    <value>weather_data</value>
+  </data>
+  <data name="&gt;&gt;weather_data.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;weather_data.Parent" xml:space="preserve">
+    <value>tab1</value>
+  </data>
+  <data name="&gt;&gt;weather_data.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="celsius_toggle.Label" xml:space="preserve">
+    <value>Celsius</value>
+  </data>
+  <data name="&gt;&gt;celsius_toggle.Name" xml:space="preserve">
+    <value>celsius_toggle</value>
+  </data>
+  <data name="&gt;&gt;celsius_toggle.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ToggleButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;celsius_toggle.Parent" xml:space="preserve">
+    <value>temp_menu.Items</value>
+  </data>
+  <data name="&gt;&gt;celsius_toggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="kelvin_toggle.Label" xml:space="preserve">
+    <value>Kelvin</value>
+  </data>
+  <data name="&gt;&gt;kelvin_toggle.Name" xml:space="preserve">
+    <value>kelvin_toggle</value>
+  </data>
+  <data name="&gt;&gt;kelvin_toggle.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ToggleButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;kelvin_toggle.Parent" xml:space="preserve">
+    <value>temp_menu.Items</value>
+  </data>
+  <data name="&gt;&gt;kelvin_toggle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fahren_toggle.Label" xml:space="preserve">
+    <value>Fahrenheit</value>
+  </data>
+  <data name="&gt;&gt;fahren_toggle.Name" xml:space="preserve">
+    <value>fahren_toggle</value>
+  </data>
+  <data name="&gt;&gt;fahren_toggle.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ToggleButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;fahren_toggle.Parent" xml:space="preserve">
+    <value>temp_menu.Items</value>
+  </data>
+  <data name="&gt;&gt;fahren_toggle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="temp_menu.Label" xml:space="preserve">
+    <value>Temperature Units</value>
+  </data>
+  <data name="&gt;&gt;temp_menu.Name" xml:space="preserve">
+    <value>temp_menu</value>
+  </data>
+  <data name="&gt;&gt;temp_menu.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.MenuView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;temp_menu.Parent" xml:space="preserve">
+    <value>Settings_Group</value>
+  </data>
+  <data name="&gt;&gt;temp_menu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spm_toggle.Label" xml:space="preserve">
+    <value>Speed Per Meter</value>
+  </data>
+  <data name="&gt;&gt;spm_toggle.Name" xml:space="preserve">
+    <value>spm_toggle</value>
+  </data>
+  <data name="&gt;&gt;spm_toggle.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ToggleButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;spm_toggle.Parent" xml:space="preserve">
+    <value>wind_menu.Items</value>
+  </data>
+  <data name="&gt;&gt;spm_toggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="spft_toggle.Label" xml:space="preserve">
+    <value>Speed Per Feet</value>
+  </data>
+  <data name="&gt;&gt;spft_toggle.Name" xml:space="preserve">
+    <value>spft_toggle</value>
+  </data>
+  <data name="&gt;&gt;spft_toggle.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ToggleButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;spft_toggle.Parent" xml:space="preserve">
+    <value>wind_menu.Items</value>
+  </data>
+  <data name="&gt;&gt;spft_toggle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="wind_menu.Label" xml:space="preserve">
+    <value>Wind Speed Units</value>
+  </data>
+  <data name="&gt;&gt;wind_menu.Name" xml:space="preserve">
+    <value>wind_menu</value>
+  </data>
+  <data name="&gt;&gt;wind_menu.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.MenuView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;wind_menu.Parent" xml:space="preserve">
+    <value>Settings_Group</value>
+  </data>
+  <data name="&gt;&gt;wind_menu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="settingsButton.Label" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Name" xml:space="preserve">
+    <value>settingsButton</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.ButtonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.Parent" xml:space="preserve">
+    <value>Settings_Group</value>
+  </data>
+  <data name="&gt;&gt;settingsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Settings_Group.Label" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Settings_Group.Name" xml:space="preserve">
+    <value>Settings_Group</value>
+  </data>
+  <data name="&gt;&gt;Settings_Group.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GroupView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Settings_Group.Parent" xml:space="preserve">
+    <value>tab1</value>
+  </data>
+  <data name="&gt;&gt;Settings_Group.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tab1.Label" xml:space="preserve">
+    <value>TabAddIns</value>
+  </data>
+  <data name="&gt;&gt;tab1.Name" xml:space="preserve">
+    <value>tab1</value>
+  </data>
+  <data name="&gt;&gt;tab1.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.TabView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;Ribbon1.OfficeMenu.Name" xml:space="preserve">
+    <value>Ribbon1.OfficeMenu</value>
+  </data>
+  <data name="&gt;&gt;Ribbon1.OfficeMenu.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.OfficeMenuView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;Ribbon1.OfficeMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ribbon1.OfficeMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Ribbon1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Microsoft.VisualStudio.Tools.Office.Ribbon.View.GenericRibbonView, Microsoft.VisualStudio.Tools.Office.Designer, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
